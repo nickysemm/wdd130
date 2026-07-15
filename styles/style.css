@@ -299,93 +299,134 @@ footer a:hover {
 /* Client Report Page */
 
 .report-page {
-  margin: 0;
-  font-family: Arial, Helvetica, sans-serif;
-  background: #f6f3ee;
-  color: #2f2f2f;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #FFF7F0;
+    color: #222222;
 }
 
 .report-page header {
-  background: white;
-  text-align: center;
-  padding: 24px 20px 18px;
-  border-bottom: 1px solid #ddd;
+    display: block;
+    text-align: center;
+    background-color: #FFFFFF;
+    padding: 28px 20px;
+    border-bottom: 6px solid #F68A3D;
 }
 
+.report-page header img,
 .report-page .logo {
-  max-width: 90px;
-  height: auto;
-  display: block;
-  margin: 0 auto 10px;
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 12px;
 }
 
 .report-page header h1 {
-  margin: 0;
-  font-size: 2rem;
-  letter-spacing: 1px;
+    margin: 0;
+    font-family: Georgia, serif;
+    font-size: 36px;
+    color: #B85E24;
+    letter-spacing: 3px;
 }
 
 .report-page nav {
-  background: #2f2f2f;
-  text-align: center;
-  padding: 14px;
+    background-color: #B85E24;
+    text-align: center;
+    padding: 15px;
 }
 
 .report-page nav a {
-  color: white;
-  text-decoration: none;
-  margin: 0 14px;
-  font-weight: bold;
-  font-size: 0.95rem;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 0 18px;
+    padding: 8px 12px;
 }
 
 .report-page nav a:hover {
-  text-decoration: underline;
+    background-color: #F68A3D;
+    border-radius: 8px;
 }
 
-.report-container {
-  max-width: 850px;
-  margin: 35px auto;
-  background: white;
-  padding: 35px 45px;
-  border-radius: 14px;
-  box-shadow: 0 4px 18px rgba(0, 0, 0, 0.08);
+.report-page main.report-container {
+    display: block;
+    width: 90%;
+    max-width: 900px;
+    margin: 35px auto;
+    background-color: #FFFFFF;
+    padding: 45px 55px;
+    border-radius: 18px;
+    border: 3px solid #FFE4D1;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.12);
 }
 
 .report-container h1 {
-  text-align: center;
-  font-size: 2rem;
-  margin-bottom: 28px;
-  color: #222;
+    font-family: Georgia, serif;
+    color: #B85E24;
+    font-size: 34px;
+    text-align: center;
+    margin: 0 0 35px;
+    line-height: 1.25;
 }
 
 .report-container h2 {
-  margin-top: 32px;
-  margin-bottom: 10px;
-  padding-bottom: 6px;
-  border-bottom: 2px solid #d8cfc3;
-  color: #3b3b3b;
-  font-size: 1.35rem;
+    font-family: Georgia, serif;
+    color: #B85E24;
+    font-size: 24px;
+    margin: 34px 0 12px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #FFE4D1;
 }
 
 .report-container p {
-  line-height: 1.45;
-  margin: 0 0 14px;
-  font-size: 1rem;
+    font-size: 17px;
+    line-height: 1.6;
+    margin: 0 0 18px;
 }
 
 .report-container a {
-  color: #6b4f3f;
-  font-weight: bold;
+    color: #B85E24;
+    font-weight: bold;
 }
 
 .report-container a:hover {
-  color: #2f2f2f;
+    color: #F68A3D;
 }
 
 .report-page footer {
-  text-align: center;
-  padding: 20px;
-  color: #555;
-  font-size: 0.9rem;
+    background-color: #B85E24;
+    color: #FFFFFF;
+    text-align: center;
+    padding: 18px;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 700px) {
+    .report-page main.report-container {
+        width: 94%;
+        padding: 28px 22px;
+    }
+
+    .report-page header h1 {
+        font-size: 28px;
+    }
+
+    .report-page nav a {
+        display: block;
+        margin: 8px 0;
+    }
+
+    .report-container h1 {
+        font-size: 28px;
+    }
+
+    .report-container h2 {
+        font-size: 21px;
+    }
+
+    .report-container p {
+        font-size: 16px;
+    }
 }

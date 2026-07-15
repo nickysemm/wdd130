@@ -620,3 +620,58 @@ footer a:hover {
         font-size: 16px;
     }
 }
+/* Better Font Across All Portal Pages */
+
+body,
+p,
+li,
+a,
+td,
+th,
+label,
+input,
+textarea,
+button,
+article,
+section {
+    font-family: "Nunito", Arial, Helvetica, sans-serif;
+}
+
+body {
+    font-size: 18px;
+    font-weight: 400;
+}
+
+p,
+li,
+td,
+th,
+label,
+input,
+textarea {
+    font-size: 18px;
+    line-height: 1.65;
+}
+
+article p,
+section p,
+.report-container p {
+    font-size: 18px;
+    line-height: 1.65;
+}
+
+nav a,
+article a,
+.ice-card a,
+button {
+    font-size: 16px;
+    font-weight: 800;
+    letter-spacing: 0.3px;
+}
+
+h1,
+h2,
+h3 {
+    font-family: Georgia, serif;
+    font-weight: bold;
+}

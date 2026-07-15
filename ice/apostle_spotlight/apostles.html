@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Apostles Spotlights</title>
+    <style>
+        body {
+            background-color: #E8ECEC;
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        .spotlight {
+            width: 900px;
+            height: 550px;
+            margin: 30px auto;
+            background-image: url("images/christus.webp");
+            background-size: 110%;
+            background-position: 45% center;
+            border: 6px solid black;
+            border-radius: 30px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        h1, h2 {
+            color: white;
+            text-align: center;
+            margin: 0;
+            font-weight: normal;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        h1 {
+            font-size: 34px;
+            padding-top: 10px;
+        }
+
+        h2 {
+            font-size: 20px;
+            margin-top: 8px;
+        }
+
+        .first-presidency {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            gap: 35px;
+            position: relative;
+            z-index: 2;
+            width: 520px;
+            margin: 20px auto 0;
+        }
+
+        .first-presidency img {
+            width: 115px;
+            height: 115px;
+        }
+
+        .prophet {
+            width: 130px !important;
+            height: 130px !important;
+            margin-top: -3px;
+        }
+
+        .apostles {
+            display: grid;
+            grid-template-columns: repeat(4, 85px);
+            justify-content: center;
+            gap: 18px 22px;
+            width: 520px;
+            margin: 5px auto 0;
+            position: relative;
+            z-index: 2;
+        }
+
+        .apostles img {
+            width: 85px;
+            height: 85px;
+        }
+
+        img {
+            object-fit: cover;
+            object-position: top center;
+            border-radius: 50%;
+            border: 7px solid white;
+            box-sizing: border-box;
+            transition: border-color 0.3s, transform 0.3s;
+        }
+
+        img:hover {
+            border-color: gold;
+            transform: scale(1.08);
+        }
+    </style>
+</head>
+<body>
+    <main class="spotlight">
+        <h1>First Presidency</h1>
+
+        <section class="first-presidency">
+            <img src="images/eyring.webp" alt="President Eyring">
+            <img class="prophet" src="images/oaks.webp" alt="President Oaks">
+            <img src="images/christofferson.webp" alt="Elder Christofferson">
+        </section>
+
+        <h2>Quorum of the Twelve Apostles</h2>
+
+        <section class="apostles">
+            <img src="images/uchtdorf.webp" alt="Elder Uchtdorf">
+            <img src="images/bednar.webp" alt="Elder Bednar">
+            <img src="images/cook.webp" alt="Elder Cook">
+            <img src="images/anderson.webp" alt="Elder Anderson">
+
+            <img src="images/rasband.webp" alt="Elder Rasband">
+            <img src="images/stevenson.webp" alt="Elder Stevenson">
+            <img src="images/renlund.webp" alt="Elder Renlund">
+            <img src="images/gong.webp" alt="Elder Gong">
+
+            <img src="images/soares.webp" alt="Elder Soares">
+            <img src="images/kearon.webp" alt="Elder Kearon">
+            <img src="images/causse.webp" alt="Elder Causse">
+            <img src="images/gilbert.webp" alt="Elder Gilbert">
+        </section>
+    </main>
+</body>
+</html>

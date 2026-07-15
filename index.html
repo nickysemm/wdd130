@@ -124,15 +124,28 @@
             </table>
         </section>
 
-        <section class="contact">
-        <h2>Contact Me</h2>
+        <section>
+            <h2>Contact Me</h2>
 
-            <p>If you have any questions, you can email me here:</p>
+            <form action="https://formspree.io/f/xkodgkgj" method="POST">
+                <p>
+                <label for="name">Name</label><br>
+                <input type="text" id="name" name="name" required>
+                </p>
 
-            <p>
-                <a href="mailto:nicolette.semmelmeyer@gmail.com">Email Me</a>
-            </p>
-        </section>
+                <p>
+                <label for="email">Email</label><br>
+                <input type="email" id="email" name="email" required>
+                </p>
+
+                <p>
+                <label for="message">Message</label><br>
+                <textarea id="message" name="message" required></textarea>
+                </p>
+
+                <button type="submit">Send Message</button>
+            </form>
+            </section>
 
     </main>
 
